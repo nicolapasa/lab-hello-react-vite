@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: #fff;
+}
+.main{
+  background-color: #1f2535;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 900px;
+
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+}
+
+.menu{
+  height: 13px;
+}
+.button{
+  background-color: #fff;
+  color: #1f2535;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: left;
+}
+
+.title{
+  width: 40%;
+}
+
+.image{
+  width: 60%;
+  margin: 2rem auto;
+  opacity: 0.1;
+ display: flex;
+ flex-direction: column;
+ justify-content:space-around;
+ align-items: center;
+}
+.image img{
+  width: 30%;
+}
+.left{
+  margin-left: 1rem;
+}
+.gallery{
+  color: #1f2535;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.col img{
+  
+  width: 50%;
+}
+.col h2{
+  font-size: 1rem;
+}
+.col p{
+  font-size: 0.7rem;
+}
